@@ -1,0 +1,49 @@
+.form-group{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ypf-brand:hover{
+    background-color: #6bc327 !important;
+}
+.select:active, select:hover {
+    outline-color: #6bc327 !important;
+    background-color: #6bc327;
+  }
+  
+  .select option{
+    outline-color: #6bc327 !important;
+  }
+  #headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+  
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+  }
+  
+  #watchlive{
+    padding: 12px 16px !important;
+    background-color: #fff;
+    color: #6bc327;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  #watchlive:hover{
+    background-color: #6bc327;
+    color: #fff;
+    transform: translateY(-10px);
+  }
+  
+  .videoContainer .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background: green;
+    opacity: 0.5;
+}
